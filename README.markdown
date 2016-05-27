@@ -135,6 +135,28 @@ case equilateralTriangle
 }
 ```
 
+When using an Enum's raw value, the raw value should be explicitly assigned and you should not use the default value
+
+**Preferred**
+
+```
+private enum AWSPayloadKey: String {
+	case statusCode = "statusCode"
+	case data = "data"
+	case resultCode = "resultCode"
+}
+```
+
+**Not Preferred**
+
+```
+private enum AWSPayloadKey: String {
+	case statusCode
+	case data
+	case resultCode
+}
+```
+
 ### Prose
 
 When referring to functions in prose (tutorials, books, comments) include the required parameter names from the caller's perspective or `_` for unnamed parameters. Examples:
