@@ -139,7 +139,7 @@ When using an Enum's raw value, the raw value should be explicitly assigned and 
 
 **Preferred**
 
-```
+```swift
 private enum AWSPayloadKey: String {
 	case statusCode = "statusCode"
 	case data = "data"
@@ -149,7 +149,7 @@ private enum AWSPayloadKey: String {
 
 **Not Preferred**
 
-```
+```swift
 private enum AWSPayloadKey: String {
 	case statusCode
 	case data
