@@ -1,3 +1,5 @@
+*NOTE: The Swift style guide used at jTribe is based on Ray Wenderlich's with the exception being that tabs are used instead of spaces. Also, some indentations seems to be lost in the fork so if in doubt, check spacing examples on [the original repo](https://github.com/raywenderlich/swift-style-guide)*
+
 # The Official raywenderlich.com Swift Style Guide.
 
 This style guide is different from others you may see, because the focus is centered on readability for print and the web. We created this style guide to keep the code in our books, tutorials, and starter kits nice and consistent — even though we have many different authors working on the books.
